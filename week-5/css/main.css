@@ -3,15 +3,15 @@ body {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 } 
 
-header{
+header{  /* 0 0 0 1 */ 
     font-size: 200%;
 }
 
-.emphasis{
+.emphasis{ /* 0 0 1 0 */
     font-style: italic;
 }
 
-.warning{
+.warning{ /* 0 0 1 0 */
     color: red;
 }
 
