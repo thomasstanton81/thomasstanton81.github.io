@@ -1,5 +1,5 @@
 body {
-    background-color: orange;
+    background-color: burlywood;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 } 
 
@@ -34,4 +34,15 @@ footer p{
 /* attribute selector */
 a[href="http://algonquincollege.com" ] {
     text-decoration: none;
+}
+
+/*pseudo class*/
+a:link,:visited {
+    color: purple;
+    text-decoration: none;
+}
+
+a:hover, a:active {
+text-decoration: underline;
+color: darkgoldenrod;
 }
