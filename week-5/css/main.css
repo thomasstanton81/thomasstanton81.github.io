@@ -1,3 +1,37 @@
 body {
     background-color: orange;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+} 
+
+header{
+    font-size: 200%;
+}
+
+.emphasis{
+    font-style: italic;
+}
+
+.warning{
+    color: red;
+}
+
+#primary{
+    font-weight: bold;
+    color: greenyellow;
+}
+
+/* Change heading colour */
+h1, h2{
+    color: blue;
+}
+
+/* descendancy selector*/
+footer p{
+    font-size: 50%;
+    text-align: center;
+}
+
+/* attribute selector */
+a[href="http://algonquincollege.com" ] {
+    text-decoration: none;
 }
