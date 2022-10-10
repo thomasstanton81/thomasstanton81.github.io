@@ -7,7 +7,7 @@ header , footer{
 }
 
 .site-title{
-   color: whitesmoke;
+   color: grey;
 }
 
 #thomas-stanton{
@@ -21,7 +21,7 @@ background:lightblue;
 
 /*pseudo class*/
 a:link,:visited {
-    background-color: purple;
+    background-color: purple ;
     color:black;
     text-decoration: none;
 }
