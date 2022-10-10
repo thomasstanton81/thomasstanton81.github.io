@@ -3,5 +3,30 @@ body{
     font-size: 18px;
 }
 header , footer{
-    background-color:purple;
+    background-color:royalblue;
 }
+
+.site-title{
+   color: whitesmoke;
+}
+
+#thomas-stanton{
+box-shadow:0 0 2px 1px #000000;
+
+}
+
+.square-bullets:nth-child(odd) {
+background:lightblue; 
+}
+
+/*pseudo class*/
+a:link,:visited {
+    background-color: purple;
+    color:black;
+    text-decoration: none;
+}
+
+a:hover, a:active {
+text-decoration: none;
+background-color: orange;
+color: black;
