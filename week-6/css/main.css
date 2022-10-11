@@ -13,6 +13,7 @@ body {
     background-position:top ;
     background-size:cover;
 }
+/* sets a semi transparent background and centre */
 .wrapper {
     width:750px;
     margin:auto;
