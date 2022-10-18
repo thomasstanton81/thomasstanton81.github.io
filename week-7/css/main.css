@@ -1,0 +1,75 @@
+/*defeat box model */
+* {
+    box-sizing: border-box;
+ }
+
+body{
+    margin-top: 6rem;
+}
+
+header {
+    background-color: red ;
+    position: fixed;
+    color: green;
+    width: 100%;
+    /*adjust stacking Z order*/
+    z-index: 2;
+    top: 0;
+
+}
+
+nav ul li{
+    background-color:orangered;
+    display: inline-block;
+    padding: .5rem;
+    margin: 7px;
+}
+
+/* understanding the box */
+ .box {
+    background-color: turquoise;
+    width: 200px;
+    height: 200px;
+    color: #000;
+    /* box model properties */
+    padding:10px;
+    border: 2px solid darkred;
+    margin: 20px;
+    /* overflow */
+    overflow: scroll;
+} 
+
+ .wrapper {
+    background-color: violet;
+    width: 400px;
+    margin: 0 auto;
+}
+
+.stage{
+    width: 100%;
+    height: 400px;
+    background-color: brown;
+    position: relative;
+}
+
+.prop{
+    width: 75px;
+    height: 75px;
+    background-color:yellow;
+    /*positional properties*/
+    position: relative;
+    top: 25px;
+    left:20px;
+}
+.columns > div {
+    width: 25%;
+    float: left;
+}
+
+.clearfix::after {
+    content:'CREATED DIV';
+    display: block;
+    clear:both;
+    background-color: blueviolet;
+
+}
