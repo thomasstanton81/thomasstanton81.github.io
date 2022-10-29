@@ -39,12 +39,20 @@ nav ul li{
     overflow: scroll;
 } 
 
- .wrapper {
+ .wrapper1 {
     background-color:lightskyblue;
     width:75%;
     margin: auto;
+    text-align: center ;
+    font-size: 25px;
 }
 
+.wrapper{
+    background-color:lightskyblue;
+    width:75%;
+    margin: auto;
+    font-size: 23px;
+}
 .columns > div {
     width: 25%;
     float: left;
@@ -53,7 +61,7 @@ nav ul li{
 .img1{
     position: relative ;
     top: 0px;
-    
+
 }
 
 h1{
