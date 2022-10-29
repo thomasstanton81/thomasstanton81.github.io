@@ -7,16 +7,7 @@ body{
     margin-top: 6rem;
 }
 
-header {
-    background-color: red ;
-    position: fixed;
-    color: green;
-    width: 100%;
-    /*adjust stacking Z order*/
-    z-index: 2;
-    top: 0;
 
-}
 
 nav ul li{
     background-color:orangered;

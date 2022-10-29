@@ -1,0 +1,92 @@
+/*defeat box model */
+* {
+    box-sizing: border-box;
+ }
+
+body{
+    background-color: rgb(4, 106, 196);
+    
+}
+
+header {
+    background-color: rgb(4, 106, 196);
+    position: relative;
+    color: blue;
+    width: 100%;
+    /*adjust stacking Z order*/
+    z-index: 2;
+    top: 0;
+
+}
+
+nav ul li{
+    background-color:lightsteelblue;
+    display:inline-block;
+    padding: .5rem;
+    margin: 10px;
+}
+
+/* understanding the box */
+ .box {
+    
+    width: 950px;
+    height: 950px;
+    color: #000;
+    /* box model properties */
+    margin: 25px;
+   
+    /* overflow */
+    overflow: scroll;
+} 
+
+ .wrapper {
+    background-color:lightskyblue;
+    width:75%;
+    margin: auto;
+}
+
+.columns > div {
+    width: 25%;
+    float: left;
+}
+
+.img1{
+    position: relative ;
+    top: 0px;
+    
+}
+
+h1{
+ font-size:35px;
+
+}
+
+h2{
+    font-size: 30px;
+
+}
+
+h3{
+    font-size: 25px;
+}
+
+  /* middle text */
+  .middle {
+    position: relative;
+    bottom: 130px;
+    right: 16px;
+    font-size: 80px;
+    text-align: center;
+  }
+  
+p{
+    text-align: ;
+    font-size: 25px;
+    margin:20px;
+}
+
+.img2{
+    position: relative;
+    left: 0px;
+    float: left; padding: 0px 5px 0px 0px;
+}
