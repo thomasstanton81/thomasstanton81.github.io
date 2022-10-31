@@ -20,7 +20,6 @@ header {
 }
 
 nav ul li{
-    background-color:lightsteelblue;
     display:inline-block;
     padding: .5rem;
     margin: 10px;
@@ -30,7 +29,7 @@ nav ul li{
  .box {
     
     width: 950px;
-    height: 950px;
+    height: 740px;
     color: #000;
     /* box model properties */
     margin: 25px;
@@ -38,7 +37,7 @@ nav ul li{
     /* overflow */
     overflow: scroll;
 } 
-
+/* different pages*/
  .wrapper1 {
     background-color:lightskyblue;
     width:75%;
@@ -46,18 +45,27 @@ nav ul li{
     text-align: center ;
     font-size: 25px;
 }
-
+/* main body*/
 .wrapper{
     background-color:lightskyblue;
     width:75%;
     margin: auto;
     font-size: 23px;
 }
+/*footer*/
+.wrapper3{
+    background-color:lightskyblue;
+    width:75%;
+    margin: auto;
+    font-size: 23px;
+    text-align: right;
+}
+
 .columns > div {
     width: 25%;
     float: left;
 }
-
+/* big image*/
 .img1{
     position: relative ;
     top: 0px;
@@ -65,26 +73,30 @@ nav ul li{
 }
 
 h1{
- font-size:35px;
+ font-size:40px;
+ color: rgb(4, 106, 196);
 
 }
 
 h2{
-    font-size: 30px;
-
+    font-size: 35px;
+    color: rgb(4, 106, 196);
 }
 
 h3{
-    font-size: 25px;
+    font-size: 30px;
+    margin: 20px;
+    color: rgb(4, 106, 196);
 }
 
-  /* middle text */
-  .middle {
+  /* title text */
+  .title {
     position: relative;
     bottom: 130px;
     right: 16px;
     font-size: 80px;
     text-align: center;
+    color:rgb(4, 106, 196); 
   }
   
 p{
@@ -92,9 +104,29 @@ p{
     font-size: 25px;
     margin:20px;
 }
-
+/*small image*/
 .img2{
     position: relative;
     left: 0px;
     float: left; padding: 0px 5px 0px 0px;
+}
+/* contact area*/
+.contact{
+}
+.name{
+    margin: 20px;
+}
+
+.email{
+    margin: 20px;
+}
+.message{
+    margin: 20px;
+}
+.visit{
+    margin: 20px;
+}
+.button{
+position: relative;
+left: 50px;
 }
