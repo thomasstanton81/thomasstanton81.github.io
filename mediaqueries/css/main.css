@@ -1,0 +1,97 @@
+/*  apply natural box layout model to all elements, but it is also allowing components to change */
+body{
+    margin: 0%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: .85em;
+    background-image: url(https://img.freepik.com/premium-photo/macro-shot-100-dollar_94046-2020.jpg?w=1800);
+}
+html{
+    box-sizing: border-box;
+
+}
+
+*,
+*:before,
+*:after{
+    box-sizing: inherit;
+}
+
+/* properly calculates the height of the containing element with elements floated inside */
+.clearfix::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* assign background color to
+.header
+.main-content
+.sidebar
+.footer
+*/
+
+.header,
+.main-content,
+.sidebar,
+.footer{
+    /* background-color: #72c2ff; */
+    margin: 2px 0;
+}
+
+.header,
+.footer{
+    background-color: greenyellow;
+    color: grey;
+}
+.header{
+/* height: 60px; */
+padding: 2%;
+}
+
+.header h1{
+text-align: center ;
+margin:0 ;
+}
+.main-content{
+/* height: 160px; */
+padding: 2%;
+color: blue;
+}
+
+.main-content h2{
+    margin-top:0;
+}
+
+.main-content p:last-child{
+    margin-bottom: 0%;
+}
+.sidebar{
+height: 100px;
+}
+.sidebar img{
+    max-width: 100%;
+}
+.footer{
+/* height: 40px; */
+padding: 1%;
+text-align: center;
+}
+/* Center components inside at a max width of 800px */
+.container{ 
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+
+/* At 680px wide, float the main content and sidebar beside each other */
+@media screen and (min-width:680px) {
+    .main-content{
+        width: 70%;
+        float: left;
+    }
+    .sidebar{
+        width:29%;
+        float:right;
+    }
+}
+
