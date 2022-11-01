@@ -1,0 +1,57 @@
+body{
+font:16px;
+background-color: antiquewhite;
+
+}
+
+h1{
+    font-size: 1rem;
+}
+p{
+    background-color: aqua;
+}
+.container{
+    width: 100px;
+    height: 100px;
+    background-color: blueviolet;
+    border: 5px solid black;
+    margin: 0 auto;
+}
+
+.image{
+    width: 1000px;
+    height: 1000px;
+    margin: 0 auto;
+background-image: url(https://img.freepik.com/free-vector/gorilla-head-monochrome-style_225004-458.jpg?w=1380&t=st=1667306387~exp=1667306987~hmac=b877606bffa3fed0d1222afd49673a559ed0d17ec96acf976c4eb5c391ec92b5);
+
+}
+
+@media screen and (min-width:680px) {
+    h1{
+        font-size: 3rem;
+    }
+    p{
+        font-size: 24px;
+    }
+    .container{
+        width: 250px;
+        height: 250px;
+        background-color: darkcyan;
+        border: 5px solid crimson;
+        margin: 0 auto;
+        border-radius: 25%;
+
+    }
+    .image{
+        background-image: url(https://img.freepik.com/premium-vector/cute-monkey-bite-gold-coin-cartoon-vector-icon-illustration-animal-finance-icon-concept-isolated-premium-vector-flat-cartoon-style_138676-3935.jpg?w=1380);
+        border-radius: 50%;
+    }
+}
+@media screen and (min-width:900px){
+    h1{
+    font-size: 4rem;
+    }
+    p{
+    font-size: 36px;
+    }
+}
