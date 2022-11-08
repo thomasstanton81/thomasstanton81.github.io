@@ -1,0 +1,68 @@
+body{
+    color: #333;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Parent for flexbow */
+
+.container{
+                             /* this is the propert that is required to start using the flex box module in css */
+    display: flex;          /* without display: flex; it would be a vertical inline instead of horizontal */
+
+                             /* Flex directions: row/row-reverse/column/column-reverse*/ /*reverse flips side of page and order of numbers */
+    flex-direction: row;
+
+    /* max-width:300px; */     /* flex wrap is used to allow children to wrap */
+    flex-wrap: no wrap;
+    
+    /* justify content: flex-start/flex-end/flex-center/space-around/ space-between/space-evenly */
+    justify-content: flex-start ;
+
+    /* Align Items: stretch/flex-start/flex-end/center/baseline */
+    align-items: flex-end;
+
+    /* styled box */
+    margin: 0 0 50px 0;
+    padding: 5px;
+    background-color: #4980d2;
+   /* height: 250px; */
+}
+/* children for flexbox*/
+
+.box{
+    padding: 2rem;
+    margin: 5px;
+    background-color: #cee3fe;
+    text-align: center;
+ /* three properties control flex items to dynamically adjust to its container */
+
+    flex-grow: 1;
+    flex-shrink: 1;
+    flex-basis: 0;
+}
+
+/* .box:nth-child(2n) {
+    padding-top: 85px;
+} */
+
+/* shorthand for flex item sizing */
+.three{
+    flex: 2 1 0;
+    order: -2;
+}
+/* items order with a default of 0 */
+
+.four {
+    flex: 4 1 0;
+    order: -1;
+}
+
+.one{
+    order: 1;
+    /* property that is used on individual flex items */
+    align-self: center;
+}
+
+.two{
+    align-self: flex-end;
+}
