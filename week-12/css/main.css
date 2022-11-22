@@ -1,0 +1,35 @@
+.card{
+    width: 40%;
+    box-shadow: 0 4px 8px rgba(0,0, 0, 0.2);
+}
+
+.container{
+    padding: 2px 16px;
+}
+
+img{
+    width:100% ; 
+}
+
+h4{
+    font-family: 'Pacifico', cursive;
+    font-size: 2rem ;
+    font-weight: 400;
+}
+
+p{
+    font-family:'Poppins', sans-serif;
+
+}
+
+.fa{
+    color: red;
+    font-size: 2rem;
+}
+
+iframe{
+    width: 100%;
+    max-width: 800px;
+    display: block;
+    margin: 0 auto;
+}
