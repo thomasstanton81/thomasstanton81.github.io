@@ -9,38 +9,56 @@
     <link rel="stylesheet" href="/css/main.css">
 </head>
 <body>
-
     <div class="navigation">
-        <header></header>
-            <Nav class="navigation">
-                <img src="/images/logo.png" alt="Star Logo">
-                <ul>
-                    <li> <a href="#home-anchor">Home</a></li>
-                    <li> <a href="#aboutus-anchor">About us</a></li>
-                    <li> <a href="#services-anchor">Services</a></li>
-                    <li> <a href="#team-anchor"> Team </a></li>
-                    <li> <a href="#contact-anchor">Contact </a></li>
+        <header>
+            <div class="logobackground">
+                <!-- adds darkgoldenrod colour to nav -->
+                <Nav class="navigation">
+                <img class="Starlogo" src="/images/logo.png" alt="Star Logo">
+                <ul class="navoptions">
+                    <!-- adds id to chang nav text colours -->
+                    <li> <a href="#home-anchor"  id="home">Home</a></li>
+            </div>
+                    <li> <a href="#aboutus-anchor" id="navtab">About us</a></li>
+                    <li> <a href="#services-anchor"id="navtab">Services</a></li>
+                    <li> <a href="#team-anchor" id="navtab"> Team </a></li>
+                    <li> <a href="#contact-anchor" id="navtab">Contact </a></li>
                 </ul>
-                <input type="text" placeholder="Search">
-                    <i class="fas fa-search"></i>
-            </Nav>
-        </header>
+                <form action="#" class="searchbar">
+                    <input type="text" placeholder="Search" name="search">
+                    <button class="search" type="submit"><i class="fa fa-search" style="color: darkgoldenrod"></i></button>
+            </form>
+         </Nav>
     </div>
-    <h1>Welcome to Three Star Media</h1>
-    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Facere ducimus magnam eum mollitia repudiandae nesciunt hic quis! Nostrum, non sed eum inventore esse iure, modi eligendi similique molestias odit deserunt! amet consectetur adipisicing elit. Facere ducimus magnam eum mollitia repudiandae nesciunt hic quis! Nostrum, non sed eum inventore esse iure, modi eligendi similique molestias odit deserunt.</p>
-    <button type="button">Connect With Us</button> 
-    <img src="/images/main-banner.jpg" alt="Three Star Media Office">
-    <img src="/images/about-us.jpg" alt="About Us">
-    <div> 
+        <div class="banner" id="home">
+            <div class="opacity">
+                <h1>Welcome to Three Star Media</h1>
+                <p class="h1p">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Facere ducimus magnam eum mollitia repudiandae nesciunt hic quis! Nostrum, non sed eum inventore esse iure, modi eligendi similique molestias odit deserunt! amet consectetur adipisicing elit. </p>
+                <button type="button" class="connect ">Connect With Us<i class="fa fa-caret-right"></i></button> 
+            </div>
+        </div>
+    </header>
+    <main>
+   <!-- About us -->
+        <div class="wrapper about" id="about">
+            <div class="sidebyside">
+    
+                 <img src="/images/about-us.jpg" alt="About Us" class="aboutus">
+             <div> 
         <!-- add anchors to make it easier to get around the page -->
-        <h2 id="aboutus-anchor">About Us</h2>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias quod dicta nam, laboriosam nulla id eligendi nobis illo eius minima unde excepturi repellendus deleniti aspernatur provident culpa omnis. In, architecto? Ipsum dolor sit amet consectetur adipisicing elit. Dicta earum deserunt sequi necessitatibus dolorum ut veniam voluptas dignissimos modi quos blanditiis distinctio iusto natus tempora reiciendis ex, nihil sint provident!</p>
+             <h2 id="aboutus-anchor">About Us</h2>
+             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias quod dicta nam, laboriosam nulla id eligendi nobis illo eius minima unde excepturi repellendus deleniti aspernatur provident culpa omnis. In, architecto? Ipsum dolor sit amet consectetur adipisicing elit. Dicta earum deserunt sequi necessitatibus dolorum ut veniam voluptas dignissimos modi quos blanditiis distinctio iusto natus tempora reiciendis ex, nihil sint provident!</p>
+        </div>
     </div>
+</div>
             <!-- add anchors to make it easier to get around the page -->
+<div class="wrapper">
+    <div class="sidebyside">
+        <div>
+        <img src="/images/digital.jpg" alt="Digital Transformation" class="digital">
+
     <h2  id="services-anchor">Our Services</h2>
-    <div>
-        <img src="/images/digital.jpg" alt="Digital Transformation">
-    </div>
+    
     <div>
         <h4>Digital Transformation</h4>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias quod dicta nam, laboriosam nulla id eligendi nobis illo eius minima unde excepturi repellendus deleniti aspernatur provident culpa omnis. In, architecto? Ipsum dolor sit amet consectetur adipisicing elit. Dicta earum deserunt sequi necessitatibus dolorum ut veniam voluptas dignissimos modi quos blanditiis distinctio iusto natus tempora reiciendis ex, nihil sint provident!</p>
@@ -155,7 +173,7 @@
     </div>
 </body>
 <footer>
-    <p>&copy; Thomas Stanton </p>
+    <p class="copyright">&copy; Thomas Stanton </p>
     <p class="credit" >All images are taken from Unsplash.com</p>
 </footer>
 </html>
