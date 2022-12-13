@@ -78,28 +78,33 @@ border: 1px solid darkgoldenrod;
 }
 /* creates background image for header and centers with no repeat*/
 
-.banner{
-    background-color: #222;
+.homepage{
+    background-color:rgba(73, 54, 54, 0.6);
     background-image: url(../images/main-banner.jpg);
     background-repeat: no-repeat;
-    background-size: 100%;
-    padding: 30px 0px;
-    margin: 0px 10px;
-    height: auto;
-
+    background-size: cover;
+    padding: 25px 0px;
+    color: white;
+    width: 100%;
+    max-width: 1200px;
+    background-position:center;
+    position: relative;
+    margin: 0px 0px 0px 10px;
 }
+
 button{ 
      background-color: darkgoldenrod;
     color: black;
   
 }
 /*sets text to white with a box in behind*/
-.opacity{
-    background-color: rgba(23, 23, 23, 0.7);
+.maintitle{
+    background-color: rgba(22, 22, 22, 0.8);
     color: white;
-    width: 100%;
+    width: 95%;
     max-width: 1200px;
     padding: 5px;
+    margin: 0px 10px 0px 10px;
 }
 /* fixed images and services areas */
 .serviceimage{
@@ -140,10 +145,11 @@ padding-top: 10px;
 .connect{
     background-color: darkgoldenrod;
     color: black;
-    padding: 10px ;
     border: none;
-    margin: 10px;
-    font-size: 1.5rem;
+    padding: 20px;
+    font-size: 12px;
+    font-family: 'Open Sans', sans-serif;
+    margin:auto;
 }
 
 .logobackground {
@@ -175,7 +181,8 @@ ul, li{
 
 .wrapperprofile{   
      background-color: #ffe6ac;
-    margin: 0px 10px 0px 10px;
+    padding: 15px;
+    margin: 13px;
 }
 /* fixes all different title styles+margins and paragraph styles+margins */
 h1{
@@ -194,6 +201,7 @@ h2{
     font-weight: bold;
     padding-top: 25px;
     padding-bottom: 15px;
+    padding-left: 10px;
 }
 
 h4{    
@@ -221,12 +229,9 @@ color: white;
 
 
 h5{
-    font-family: sans-serif;
-    font-weight: bold;
-    font-size: 1.2rem;
-    padding: 10px 10px 10px 10px;
-    color: black;
-    border-bottom: 3px solid darkgoldenrod;
+ border-bottom: 3px solid darkgoldenrod;
+ padding-bottom: 6px;
+
 }
 
 h6{
@@ -238,24 +243,26 @@ h6{
     padding-left: 10px;
 }
 
-h7{
-    font-family: sans-serif;
-    font-weight: bold;
-    font-size: 1.2rem;
-    padding: 10px 10px 10px 10px;
-    color: black;
-}
+
 
 .hp5{ 
     font-family: sans-serif;
     padding: 10px 10px 10px 10px;
 color: black;
+margin: 0px 0px 10px;
 }
 
 .h4p{
     font-family: sans-serif;
     padding: 10px 10px 10px 10px;
 }
+
+.hp6{
+    font-family: sans-serif;
+    padding: 0px 0px 0px 10px;
+    font-size: 15px;
+}
+
 /* services buttons  */
 .buttondigital{
     background-color: #222;
@@ -319,6 +326,14 @@ color: black;
     margin: 0px 10px 10px 10px;
 }
 
+.sendbutton{   background-color:black;
+    opacity: 100%;
+    color: darkgoldenrod;
+    font-size: 16px;
+    font-family: 'Open Sans', sans-serif;
+    margin: 10px 10px 10px 10px;
+}
+
 
 ol, ul{
     list-style: none;
@@ -343,10 +358,12 @@ footer{
 }
 .copyright{
     color: darkgoldenrod;
+    padding: 10px;
 }
 
 .credit{
     color: darkgoldenrod;
+    padding: 10px;
 }
 
 #navoptions{
@@ -356,4 +373,54 @@ footer{
 a:hover{
     color:  black;
     background-color: darkgoldenrod;
+}
+/* sets box's for contact us area */
+input[type=text] {
+    width: 95%;
+    max-width: 1100px;
+    margin: 10px;
+    line-height: 20px;
+    border: 1px solid black;
+}
+input[type=text2] {
+    width: 95%;
+    max-width: 1100px;
+    min-height: 100px;
+    margin: 10px;
+    line-height: 20px;
+    border: 1px solid black;
+}
+/* conatct us titles positioning design */
+.contacttitle{
+    font-family: sans-serif;
+    font-size: 15px;
+    margin: 0px 10px 0px 10px;
+    color: black;
+}
+
+
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    padding: 10px;
+    width: 90%;
+    margin: auto;
+}
+
+th {
+    background-color: #ffe6ac;
+    font-family: sans-serif;
+}
+
+table {
+    table-layout: fixed;
+    font-family: sans-serif;
+    font-size: 15px;
+}
+
+#map{
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    width: 95%;
 }
