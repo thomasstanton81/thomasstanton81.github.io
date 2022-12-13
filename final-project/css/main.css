@@ -105,14 +105,20 @@ button{
 .serviceimage{
     margin: 0px 10px 0px 10px;
 width: 96%;
+padding-top: 10px;
 }
 /* visions image */
-.visionimage{
-   margin: 0px 10px 0px 0px;
-width: 100%;
-padding-right: 5px ;
+.learnmore{
+    background-image: url(../images/vision.jpg);
+    width: 100%;
+}
+/* adjusts profile image */
 
-padding-top: 15px;
+.profileimage{
+    margin: 0px 10px 0px 10px;
+width: 96%;
+padding-top: 10px;
+
 }
 
 .aboutus{
@@ -140,20 +146,6 @@ padding-top: 15px;
     font-size: 1.5rem;
 }
 
-h1{
-    font-size: 50px;
-    text-align: left;
-    font-family: sans-serif;
-font-weight: bold;}
-.h1p{
-    text-align: left;
-}
-h2{
-    font-size: 3.5rem;
-    font-weight: bolder;
-    padding: 20px; 
-}
-
 .logobackground {
     background-color: darkgoldenrod;
 }
@@ -175,16 +167,89 @@ ul, li{
     list-style: none;
     margin: 15px;
 }
+/*  */
 .wrapperservices{
     background-color: #ffe6ac;
-    margin: 0px 10px 10px 10px;
+    margin: 0px 10px 0px 10px;
 }
 
-h4{    font-family: sans-serif;
+.wrapperprofile{   
+     background-color: #ffe6ac;
+    margin: 0px 10px 0px 10px;
+}
+/* fixes all different title styles+margins and paragraph styles+margins */
+h1{
+    font-size: 50px;
+    text-align: left;
+    font-family: sans-serif;
+font-weight: bold;}
+
+.h1p{
+    text-align: left;
+}
+
+h2{
+    font-family: sans-serif;
+    font-size: 3.5rem;
+    font-weight: bold;
+    padding-top: 25px;
+    padding-bottom: 15px;
+}
+
+h4{    
+    font-family: sans-serif;
+    font-weight: 600;
+    font-size: 2rem;
+    padding: 15px 10px 10px 10px;
+ 
+}
+
+h3{
+    font-family: sans-serif;
     font-weight: bold;
     font-size: 2rem;
     padding: 10px 10px 10px 10px;
- 
+    color: white;
+}
+
+.hp3{ 
+    font-family: sans-serif;
+    padding: 10px 10px 10px 10px;
+color: white;
+}
+
+
+
+h5{
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 1.2rem;
+    padding: 10px 10px 10px 10px;
+    color: black;
+    border-bottom: 3px solid darkgoldenrod;
+}
+
+h6{
+   
+     font-family: sans-serif;
+     font-size: 3.5rem;
+    font-weight: bold;
+    padding-top: 25px;
+    padding-left: 10px;
+}
+
+h7{
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 1.2rem;
+    padding: 10px 10px 10px 10px;
+    color: black;
+}
+
+.hp5{ 
+    font-family: sans-serif;
+    padding: 10px 10px 10px 10px;
+color: black;
 }
 
 .h4p{
@@ -200,6 +265,7 @@ h4{    font-family: sans-serif;
     font-size: 16px;
     font-family: 'Open Sans', sans-serif;
     margin: 0px 10px 10px 10px;
+    
 }
 
 .buttonmarket{
@@ -242,7 +308,8 @@ h4{    font-family: sans-serif;
 }
 
 .visionbutton{
-    background-color: #222;
+    background-color:rgba(22, 22, 22, 0.8);
+    opacity: 90%;
     color: white;
     border-color:darkgoldenrod;
     border-radius: 1px;
@@ -290,29 +357,3 @@ a:hover{
     color:  black;
     background-color: darkgoldenrod;
 }
-/*.field-8{
-    display:grid;
-    grid-template-columns:1fr 1fr 1fr;
-    grid-template-rows:1fr 1fr 1fr;
-    
-  }
-  .field-8 .block:nth-child(1){
-   grid-row: 3/ 1;
-   grid-column: 1 / 3;
-  
-  
-  }
-  .field-8 .block:nth-child(2){
-   grid-row-start: 1;
-   grid-row-end:1;
-   grid-column-start: 2;
-   grid-column-end:3;
-   grid-row:span 1 / 0 ;
-   grid-column: span 2 /-1 ;
-   z-index: 2 ;
-    
-  }
-  .field-8 .block:nth-child(3){
-  grid-row: 2/ 4;
-   grid-column: 1 / 4;
-   */
