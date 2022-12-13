@@ -48,6 +48,10 @@ table {
     border-spacing: 0;
 }
 
+body{
+    overflow-x: hidden;
+}
+
 /***** CSS Begins *****/
 
 header {
@@ -62,14 +66,15 @@ nav{
     margin: 20px 0 0;
 }
 
-.search{
+.searchicon{
 background-color: rgb(19, 19, 19);
 border-radius: none;
 border: 1px solid darkgoldenrod;
 }
 
 .searchbar{
-    text-align: center;
+    width: 90%;
+    margin: 10px 0px 10px 10px;
 }
 /* creates background image for header and centers with no repeat*/
 
@@ -79,6 +84,7 @@ border: 1px solid darkgoldenrod;
     background-repeat: no-repeat;
     background-size: 100%;
     padding: 30px 0px;
+    margin: 0px 10px;
     height: auto;
 
 }
@@ -95,11 +101,40 @@ button{
     max-width: 1200px;
     padding: 5px;
 }
+/* fixed images and services areas */
+.serviceimage{
+    margin: 0px 10px 0px 10px;
+width: 96%;
+}
+/* visions image */
+.visionimage{
+   margin: 0px 10px 0px 0px;
+width: 100%;
+padding-right: 5px ;
+
+padding-top: 15px;
+}
+
+.aboutus{
+    width: 99%;
+    margin: auto;
+    padding: 2px solid;
+    max-width: 1100px;
+    display: block;
+}
+/*creates backround for about us*/
+.about{
+    background-color: #ffe6ac;
+    padding: 20px;
+    margin: 0px 10px 0px 10px;
+    
+}
+
 
 .connect{
     background-color: darkgoldenrod;
     color: black;
-    padding: 10 px;
+    padding: 10px ;
     border: none;
     margin: 10px;
     font-size: 1.5rem;
@@ -108,7 +143,8 @@ button{
 h1{
     font-size: 50px;
     text-align: left;
-}
+    font-family: sans-serif;
+font-weight: bold;}
 .h1p{
     text-align: left;
 }
@@ -139,7 +175,82 @@ ul, li{
     list-style: none;
     margin: 15px;
 }
+.wrapperservices{
+    background-color: #ffe6ac;
+    margin: 0px 10px 10px 10px;
+}
 
+h4{    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 2rem;
+    padding: 10px 10px 10px 10px;
+ 
+}
+
+.h4p{
+    font-family: sans-serif;
+    padding: 10px 10px 10px 10px;
+}
+/* services buttons  */
+.buttondigital{
+    background-color: #222;
+    color: white;
+    border-style: none;
+    padding: 20px;
+    font-size: 16px;
+    font-family: 'Open Sans', sans-serif;
+    margin: 0px 10px 10px 10px;
+}
+
+.buttonmarket{
+    background-color: #222;
+    color: white;
+    border-style: none;
+    padding: 20px;
+    font-size: 16px;
+    font-family: 'Open Sans', sans-serif;
+    margin: 0px 10px 10px 10px;
+}
+
+.buttonvideo{   background-color: #222;
+    color: white;
+    border-style: none;
+    padding: 20px;
+    font-size: 16px;
+    font-family: 'Open Sans', sans-serif;
+    margin: 0px 10px 10px 10px;
+}
+
+.buttonweb{
+    background-color: #222;
+    color: white;
+    border-style: none;
+    padding: 20px;
+    font-size: 16px;
+    font-family: 'Open Sans', sans-serif;
+    margin: 0px 10px 10px 10px;
+}
+
+.buttonprint{
+    background-color: #222;
+    color: white;
+    border-style: none;
+    padding: 20px;
+    font-size: 16px;
+    font-family: 'Open Sans', sans-serif;
+    margin: 0px 10px 10px 10px;
+}
+
+.visionbutton{
+    background-color: #222;
+    color: white;
+    border-color:darkgoldenrod;
+    border-radius: 1px;
+    padding: 20px;
+    font-size: 16px;
+    font-family: 'Open Sans', sans-serif;
+    margin: 0px 10px 10px 10px;
+}
 
 
 ol, ul{
