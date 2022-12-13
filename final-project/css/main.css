@@ -108,14 +108,17 @@ button{
 }
 /* fixed images and services areas */
 .serviceimage{
-    margin: 0px 10px 0px 10px;
 width: 96%;
-padding-top: 10px;
+padding-top: 20px;
+padding-left: 10px;
+
 }
 /* visions image */
 .learnmore{
     background-image: url(../images/vision.jpg);
     width: 100%;
+    padding-top: 40px;
+    margin-top: 20px;
 }
 /* adjusts profile image */
 
@@ -173,7 +176,7 @@ ul, li{
     list-style: none;
     margin: 15px;
 }
-/*  */
+/* wrapper boxes */
 .wrapperservices{
     background-color: #ffe6ac;
     margin: 0px 10px 0px 10px;
@@ -243,7 +246,12 @@ h6{
     padding-left: 10px;
 }
 
-
+h7{    
+    font-family: sans-serif;
+    font-weight: 600;
+    font-size: 2rem;
+    padding-left: 10px ;
+}
 
 .hp5{ 
     font-family: sans-serif;
@@ -381,6 +389,7 @@ input[type=text] {
     margin: 10px;
     line-height: 20px;
     border: 1px solid black;
+    border-radius: 2px;
 }
 input[type=text2] {
     width: 95%;
@@ -389,6 +398,7 @@ input[type=text2] {
     margin: 10px;
     line-height: 20px;
     border: 1px solid black;
+    border-radius: 2px;
 }
 /* conatct us titles positioning design */
 .contacttitle{
@@ -397,16 +407,16 @@ input[type=text2] {
     margin: 0px 10px 0px 10px;
     color: black;
 }
-
+/* adds table */
 
 table, th, td {
     border: 1px solid black;
     border-collapse: collapse;
     padding: 10px;
-    width: 90%;
-    margin: auto;
+    width: 95%;
+   margin: 10px;
 }
-
+/* adds design to table */
 th {
     background-color: #ffe6ac;
     font-family: sans-serif;
@@ -418,9 +428,18 @@ table {
     font-size: 15px;
 }
 
+/* creates map padding */
 #map{
     padding-bottom: 10px;
     padding-left: 10px;
     padding-right: 10px;
     width: 95%;
+}
+
+.unsplash{
+    color: darkgoldenrod;
+}
+
+a:hover{
+    background-color: rgb(19, 19, 19);
 }
