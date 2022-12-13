@@ -55,7 +55,7 @@ body{
 /***** CSS Begins *****/
 
 header {
-    background-color: rgb(19, 19, 19);
+    background-color: #222;
 }
 
 nav{
@@ -67,9 +67,9 @@ nav{
 }
 
 .searchicon{
-background-color: rgb(19, 19, 19);
+background-color: #222;
 border-radius: none;
-border: 1px solid darkgoldenrod;
+border: 1px solid #c78c06;
 }
 
 .searchbar{
@@ -79,7 +79,7 @@ border: 1px solid darkgoldenrod;
 /* creates background image for header and centers with no repeat*/
 
 .homepage{
-    background-color:rgba(73, 54, 54, 0.6);
+    background-color: #222;
     background-image: url(../images/main-banner.jpg);
     background-repeat: no-repeat;
     background-size: cover;
@@ -94,7 +94,7 @@ border: 1px solid darkgoldenrod;
 
 button{ 
      background-color: darkgoldenrod;
-    color: black;
+    color: #222;
   
 }
 /*sets text to white with a box in behind*/
@@ -146,8 +146,8 @@ padding-top: 10px;
 
 
 .connect{
-    background-color: darkgoldenrod;
-    color: black;
+    background-color:#c78c06;
+    color: #222;
     border: none;
     padding: 20px;
     font-size: 12px;
@@ -156,11 +156,11 @@ padding-top: 10px;
 }
 
 .logobackground {
-    background-color: darkgoldenrod;
+    background-color: #c78c06;
 }
 
 #home {
-    color: rgb(19, 19, 19);
+    color:  #222;
     display: block;
     text-align: center;
     padding: 15px;
@@ -232,7 +232,7 @@ color: white;
 
 
 h5{
- border-bottom: 3px solid darkgoldenrod;
+ border-bottom: 3px solid#c78c06;
  padding-bottom: 6px;
 
 }
@@ -326,7 +326,7 @@ margin: 0px 0px 10px;
     background-color:rgba(22, 22, 22, 0.8);
     opacity: 90%;
     color: white;
-    border-color:darkgoldenrod;
+    border-color:#c78c06;
     border-radius: 1px;
     padding: 20px;
     font-size: 16px;
@@ -334,9 +334,9 @@ margin: 0px 0px 10px;
     margin: 0px 10px 10px 10px;
 }
 
-.sendbutton{   background-color:black;
+.sendbutton{   background-color: #222;
     opacity: 100%;
-    color: darkgoldenrod;
+    color: #c78c06;
     font-size: 16px;
     font-family: 'Open Sans', sans-serif;
     margin: 10px 10px 10px 10px;
@@ -352,25 +352,25 @@ text-decoration: none;
 }
 
 .navtab{
-color: darkgoldenrod;
+color: #c78c06;
 }
 
 a:hover {
-    color: rgb(19, 19, 19);
-    background-color: darkgoldenrod;
+    color: #222;
+    background-color: #c78c06;
 
 }
 
 footer{
-    background-color: rgb(19, 19, 19);
+    background-color:  #222;
 }
 .copyright{
-    color: darkgoldenrod;
+    color: #c78c06;
     padding: 10px;
 }
 
 .credit{
-    color: darkgoldenrod;
+    color: #c78c06;
     padding: 10px;
 }
 
@@ -379,8 +379,8 @@ footer{
     display: block;
 }
 a:hover{
-    color:  black;
-    background-color: darkgoldenrod;
+    color:  #222;
+    background-color: #c78c06;
 }
 /* sets box's for contact us area */
 input[type=text] {
@@ -388,7 +388,7 @@ input[type=text] {
     max-width: 1100px;
     margin: 10px;
     line-height: 20px;
-    border: 1px solid black;
+    border: 1px solid #222;
     border-radius: 2px;
 }
 input[type=text2] {
@@ -397,7 +397,7 @@ input[type=text2] {
     min-height: 100px;
     margin: 10px;
     line-height: 20px;
-    border: 1px solid black;
+    border: 1px solid #222;
     border-radius: 2px;
 }
 /* conatct us titles positioning design */
@@ -405,12 +405,12 @@ input[type=text2] {
     font-family: sans-serif;
     font-size: 15px;
     margin: 0px 10px 0px 10px;
-    color: black;
+    color: #222;
 }
 /* adds table */
 
 table, th, td {
-    border: 1px solid black;
+    border: 1px solid #222;
     border-collapse: collapse;
     padding: 10px;
     width: 95%;
@@ -437,9 +437,12 @@ table {
 }
 
 .unsplash{
-    color: darkgoldenrod;
+    color: #c78c06;
 }
 
 a:hover{
-    background-color: rgb(19, 19, 19);
+    background-color: #222;
 }
+
+/****** BEGINS DESKTOP VERSION ******/
+
